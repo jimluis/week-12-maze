@@ -1003,6 +1003,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4657047982645578, guid: aef7c887e1f419b45b3e480ff017b110, type: 3}
   m_PrefabInstance: {fileID: 865702148}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &276579113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276579114}
+  m_Layer: 0
+  m_Name: AttachementPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &276579114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276579113}
+  m_LocalRotation: {x: 0.12363984, y: -0.6797665, z: -0.062838994, w: -0.72019583}
+  m_LocalPosition: {x: -2.9899967, y: 0.0000062488098, z: 0.0000002368737}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2063922879}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -15.279, y: -272.689, z: -4.613}
 --- !u!4 &299402397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4516215191552552, guid: d70a27546822c004b81f0b6ce1dda5aa, type: 3}
@@ -1561,7 +1592,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh126322
+  m_Name: pb_Mesh129680
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6241,7 +6272,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 276579114}
   m_AttachEaseInTime: 0.15
   m_MovementType: 2
   m_VelocityDamping: 1
@@ -6294,6 +6325,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &2063922879 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3087146114746809748, guid: 00d744dfca54f46e5a304ddef9a8b8a0, type: 3}
+  m_PrefabInstance: {fileID: 2063922870}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &2063922880
 BoxCollider:
   m_ObjectHideFlags: 0
